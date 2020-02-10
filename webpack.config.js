@@ -22,7 +22,7 @@ function getCommonConfig(mode, ext, target) {
         output: {
             path: path.resolve(__dirname, folder),
             filename: `[name].[contenthash].${VERSION}${ext}.${fileExt}`,
-            library: 'HelloLib',
+            library: 'DraalAudioEngine',
             libraryTarget: 'umd',
             umdNamedDefine: true
         },
@@ -52,7 +52,7 @@ function getCommonConfig(mode, ext, target) {
         configuration.plugins = [
             // Create index.html automatically
             new HtmlWebpackPlugin({
-                title: 'TypeScript starter'
+                title: 'Draal AudioEngine'
             })
         ]
     }
