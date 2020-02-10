@@ -44,9 +44,7 @@ npm run build-prod
 npm run serve-build
 ```
 
-## CI
-
-### GitHub Actions
+## GitHub Actions CI
 https://github.com/jojanper/draal-audioengine/actions
 
 ## License
