@@ -48,7 +48,8 @@ module.exports = {
                 '@babel/preset-typescript'
             ],
             plugins: [
-                'istanbul'
+                'istanbul',
+                '@babel/proposal-class-properties'
             ]
         }
     }
